@@ -1,4 +1,4 @@
-# Recursia · Learning to Compose
+# Recursia · 网页草稿备份
 
 论文项目页：**Recursive Self-Improvement of Shared Executable Stacks for Zero-Shot Long-Horizon Robot Manipulation**。
 
@@ -39,13 +39,13 @@ codeUrl: "https://github.com/YOUR-ORG/YOUR-CODE-REPO",
 
 `codeUrl` 应指向论文代码仓库，不是仅承载这个网页的仓库。作者列表为空时整个作者区隐藏。
 
-## 私密保存与后续发布
+## 仓库用途
 
-仓库：`phosphene7/Recursia`，当前按用户要求设为 **Private**；不公开部署网页。网站可在本机预览。
+这个仓库保存最初的项目网页草稿，目前已按用户要求改为 Public。它不是机器人程序或论文实验代码仓库。
 
-`.github/workflows/pages.yml` 是预留的 GitHub Pages 部署文件，**仅支持手动运行**，推送文件不会自动发布。当前不要运行此工作流。
+**维护在线网站请使用 https://github.com/phosphene7/Recursia-Page 。** 该仓库包含公开网页、PDF 和当前视频配置。这里的草稿保留作备份，未加入 PDF 下载入口。
 
-后续确认可以公开时，再启用并运行 Pages 部署。注意：仓库设为 Private 与网页设为私密是不同的访问权限；不能仅凭仓库 Private 就认为 Pages 网页也不会被别人看见。
+`.github/workflows/pages.yml` 仅支持手动运行；没有自动发布草稿。
 
 全部资源使用相对路径，兼容 GitHub Pages 项目子路径。Google Fonts 仅用于字体美化；网络不可达时自动使用本地 Arial / Georgia。
 
